@@ -73,87 +73,56 @@ body {
   margin-inline-start: 42.5rem;
 }
 
-.about_me {
-  color: black;
-  background-color: rgb(251, 177, 239);
-  max-width: 200;
-  max-height: 500px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding: 2rem;
-  font-size: 18px;
-  border-image-width: 10pix;
-  display: flex;
-  flex-direction: row;
+/*image and text for about me page below*/
+.my_image {
+  size: 100px;
+  border-radius: 40px;
+  padding: 10px;
+  width: 200px;
+  height: 120px;
 }
 
 .my_text {
   font-size: 25px;
-  text-align: start;
-  padding: 1rem;
+  text-align: center;
 }
 
 .my_image {
-  size: 200px;
+  size: 100px;
   height: 300px;
-  display: flex;
-  flex-direction: center;
-  margin-left: 1rem;
 }
+/*image and text for about me page ends here*/
 
+/* css for skills page starts*/
 .Skills__me {
-  box-sizing: border-box;
-  flex-direction: row;
-  max-width: 200;
-  max-height: 500px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
-  padding: 2rem;
-  font-size: 18px;
+  font-size: 22px;
   color: rgb(0, 0, 0);
-  border-image-width: 10pix;
+  border-image-width: inherit;
+  margin-top: 4rem;
+  padding: 4rem;
   background-color: rgb(197, 196, 196);
 }
-.Projects_me {
-  box-sizing: border-box;
-  flex-direction: row;
-  max-width: 200;
-  max-height: 500px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 1.5rem;
-  padding: 1rem;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  border-image-width: 10pix;
-  background-color: rgb(179, 155, 155);
-}
+/* css for skills page ends*/
 
+/* css for project page below*/
+.Projects_me {
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(155, 164, 245);
+  color: rgb(0, 0, 0);
+}
+/* css for project page ends*/
+
+/* css for contact page below */
 .Contact_me {
-  box-sizing: border-box;
-  flex-direction: row;
-  max-width: 200px;
-  max-height: 500px;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  margin-top: 2rem;
-  padding: 2rem;
+  background-color: aqua;
   font-size: 16px;
   color: rgb(0, 0, 0);
-  border-image-width: 4px;
-  background-color: rgb(219, 186, 186);
+  margin-top: 4rem;
+  text-align: center;
 }
+/* css for contact page ends*/
 
-.vp {
-  font-size: 20px;
-}
-.hp {
-  font-size: 20px;
-}
-.pp {
-  font-size: 20px;
-}
 body,
 html {
   height: 100%;
@@ -166,9 +135,7 @@ html {
 /* My hero image/Index page */
 .hero-image {
   background-image: url("https://images-na.ssl-images-amazon.com/images/I/61nginfjF9L._SX466_.jpg");
-
   height: 100%;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
