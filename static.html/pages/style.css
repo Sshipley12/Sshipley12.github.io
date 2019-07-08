@@ -1,0 +1,178 @@
+* html {
+  font: 18px/1.618 Magnila;
+}
+
+body {
+  background-color: rgb(88, 76, 88);
+}
+
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .close-button {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.open-button {
+  font-size: 20px;
+  cursor: grab;
+  background-color: rgb(17, 17, 17);
+  color: rgb(116, 114, 115);
+  padding: 10px 15px;
+  border: none;
+}
+
+.open-button:hover {
+  background-color: rgb(14, 13, 13);
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.header_1 {
+  font-size: 60px;
+  font-style: normal;
+  margin-inline-start: 35rem;
+  margin-inline-end: 12px;
+}
+
+.header_2 {
+  box-direction: row;
+  box-sizing: content-box;
+  font-size: 30px;
+  margin-inline-start: 38rem;
+  margin-inline-end: 12px;
+}
+.header_3 {
+  box-direction: flex;
+  flex-direction: row;
+  font-size: 25px;
+  margin-inline-start: 45.8rem;
+}
+
+.nav_1 {
+  font-size: 1.5rem;
+  line-break: 5px;
+  margin-inline-start: 42.5rem;
+}
+
+.about_me {
+  color: black;
+  background-color: rgb(251, 177, 239);
+  max-width: 200;
+  max-height: 500px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  font-size: 18px;
+  border-image-width: 10pix;
+  display: flex;
+  flex-direction: row;
+}
+
+.my_text {
+  font-size: 22px;
+  text-align: start;
+  padding: 1rem;
+}
+
+.my_image {
+  size: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: center;
+  margin-left: 1rem;
+}
+
+.Skills__me {
+  box-sizing: border-box;
+  flex-direction: row;
+  max-width: 200;
+  max-height: 500px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  border-image-width: 10pix;
+  background-color: rgb(197, 196, 196);
+}
+.Projects_me {
+  box-sizing: border-box;
+  flex-direction: row;
+  max-width: 200;
+  max-height: 500px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  border-image-width: 10pix;
+  background-color: rgb(179, 155, 155);
+}
+
+.Contact_me {
+  box-sizing: border-box;
+  flex-direction: row;
+  max-width: 200px;
+  max-height: 500px;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+  padding: 2rem;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
+  border-image-width: 4px;
+  background-color: rgb(219, 186, 186);
+}
+
+.vp {
+  font-size: 20px;
+}
+.hp {
+  font-size: 20px;
+}
+.pp {
+  font-size: 20px;
+}
