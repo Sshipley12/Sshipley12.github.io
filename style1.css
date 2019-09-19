@@ -7,8 +7,15 @@
     padding: 20px;
     font-family: Arial;
   }
+
+  img {
+      width:125px;
+  }
+  .header__name {
+      margin-left: 30rem;
+  }
   .hr {
-      color: pink;
+      border-top: solid pink;
   }
   /* Center website */
   .main {
