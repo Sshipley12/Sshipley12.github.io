@@ -1,27 +1,28 @@
-* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    background-color: #f1f1f1;
-    padding: 20px;
-    font-family: Arial;
-  }
+
+}
+
+.nav_1 {
+  font-size: 1.5rem;
+  line-break: 5px;
+  margin-inline-start: 42.5rem;
+}
+
+/*image and text for about me page below*/
+.my_image {
+  size: 100px;
+  border-radius: 40px;
+  padding: 10px;
+  width: 200px;
+  height: 120px;
+}
+
+.my_text {
+  font-size: 25px;
+  text-align: left;;
+}
 
   img {
       width:125px;
-  }
-
-
-.my__name {
-  text-align: center;
-  
-
-}
-.content-about {
-display: flex;
-flex-direction: inherit;
-
 }
 
   .header__name {
