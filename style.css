@@ -7,41 +7,7 @@
     padding: 20px;
     font-family: Arial;
   }
-.p {
-  position: right;
-}
-
-  ul {
-   
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
   
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: #111;
-  }
-  
-
-
-
-
-
   img {
       width:125px;
   }
@@ -50,7 +16,6 @@
 .my__name {
   text-align: center;
   
-
 }
 .content-about {
 display: flex;
@@ -88,71 +53,55 @@ flex-direction: inherit;
     margin: 8px -16px;
   }
   
-  /* Add padding BETWEEN each column (if you want) */
+  
   .row,
   .row > .column {
     padding: 16px;
   }
   
-  /* Create four equal columns that floats next to each other */
+  
   .column {
     float: left;
     width: 30%;
   }
   
-  /* Clear floats after rows */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Content */
   .content {
     size: 2rem;
     background-color: white;
     padding: 10px;
   }
   
+  footer {
+     display: flex;
+    justify-content: 50%;
+    justify-content: space-between;
   
-  /* Responsive layout - makes a two column-layout instead of four columns */
+  }
+  
+  /* Responsive layout */
   @media screen and (max-width: 900px) {
     .column {
       width: 50%;
     }
   }
   
-  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  /* Responsive layout */
   @media screen and (max-width: 600px) {
     .column {
       width: 100%;
     }
-
-
-
-  
-  
-    .fa {
-      padding: 20px;
-      font-size: 60px;
-      width: 30px;
-      border-radius: 50%;
-      text-align: center;
-      text-decoration: none;
+    @media screen and (max-width: 900px) {
+      .header__name {
+        width: 100%;
+      }
     }
-    
-    /* Add a hover effect if you want */
-    .fa:hover {
-      opacity: 0.7;
-    }
-    
-    /* Set a specific color for each brand */
-    
-    /* Facebook */
-    .fa-linkedin {
-      background: #3B5998;
-      color: rgb(11, 12, 14);
-    }
+
     
  .hr2 {
    border-top: solid pink;
